@@ -8,6 +8,9 @@ Notes and resources from an applied robotics workshop based on ROS
 - [Prerequisites](#prerequisites)
 - [Development Tools](#tools)
 - [Cheat Sheet](#cheat-sheet)
+  - [Environment](#get-machines-ip-address)
+  - [Terminator](#terminator)
+  - [ROS](#ros)
 - [Resources](#resources)
 - [Contact](#contact)
 
@@ -82,29 +85,6 @@ $ echo $ROS_MASTER_URI
 ```
 **NOTE:** Make sure these variables match what is in your ```.bashrc``` file.
 
-#### ROS
-
-```
-# roscore
-# roscore must be running at all times for ROS node to communicate
-# roscore launches the following nodes: master, parameter server, rosout
-# 
-$ roscore
-```
-
-```
-# rosrun
-# rosrun allows you to run any ROS packages without having to be in the package's working directory
-# 
-$ rosrun
-```
-
-```
-# rostopic
-# rostopic display debug information about ROS topics from publishers and subscribers
-# 
-$ rostopic
-```
 #### Terminator
 ##### Splitting Windows
 
@@ -134,6 +114,30 @@ $ rostopic
 * -b – borderless
 * -T – set title
 
+
+#### ROS
+
+```
+# roscore
+# roscore must be running at all times for ROS node to communicate
+# roscore launches the following nodes: master, parameter server, rosout
+# 
+$ roscore
+```
+
+```
+# rosrun
+# rosrun allows you to run any ROS packages without having to be in the package's working directory
+# 
+$ rosrun
+```
+
+```
+# rostopic
+# rostopic display debug information about ROS topics from publishers and subscribers
+# 
+$ rostopic
+```
 ## Resources
 
 - [About ROS](http://www.ros.org/about-ros/)
