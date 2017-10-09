@@ -150,4 +150,5 @@ rostopic hz /turtle1/pose
 ## Resources
 - [ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
 - [Turtlesim Tutorial](http://wiki.ros.org/turtlesim/Tutorials)
+- [ROS Topic Wiki](http://wiki.ros.org/rostopic)
 - [Understanding ROS Topics](http://wiki.ros.org/ROS/Tutorials/UnderstandingTopics)
