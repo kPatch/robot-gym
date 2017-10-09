@@ -121,4 +121,8 @@ rosrun turtlesim turtlesim_node
 rosrun turtlesim turtle_teleop_key
 ```
 ## Behind the Scenes
-
+### View all topics
+```
+rostopic list
+```
+![rostopic list](https://github.com/kPatch/robot-gym/blob/master/day-1/res/rostopic-list.png)
