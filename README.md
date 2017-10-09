@@ -11,6 +11,7 @@ Notes and resources from an applied robotics workshop based on ROS
   - [Environment](#get-machines-ip-address)
   - [Terminator](#terminator)
   - [ROS](#ros)
+- [Demos](#demos)
 - [Resources](#resources)
 - [Contact](#contact)
 
@@ -138,6 +139,15 @@ $ rosrun
 # 
 $ rostopic
 ```
+## Demos
+
+### MOVR
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=T0xPm9xqcjY" target="_blank"><img src="http://img.youtube.com/vi/T0xPm9xqcjY/0.jpg" 
+alt="MOVR" width="240" height="180" border="10" /></a>
+
+### RoboWaiter
+![Robowaiter with Coronas](https://github.com/kPatch/robot-gym/blob/master/res/robowaiter-coronas.jpg)
+
 ## Resources
 
 - [About ROS](http://www.ros.org/about-ros/)
