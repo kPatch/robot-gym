@@ -123,6 +123,13 @@ rosrun turtlesim turtle_teleop_key
 ## Behind the Scenes
 ### View all topics
 ```
+# In a new terminal
 rostopic list
 ```
 ![rostopic list](https://github.com/kPatch/robot-gym/blob/master/day-1/res/rostopic-list.png)
+
+### Echo keyboard messages
+```
+# In a new terminal
+rostopic echo /turtle1/pose
+```
