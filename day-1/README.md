@@ -7,7 +7,7 @@
 # Table of Contents
 - [Overview](#overview)
 - [Installation](#installation)
-
+- [Turtlesim](#turtlesim)
 ## Overview
 Lorem Ipsum
 
@@ -60,3 +60,32 @@ sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool
 ```
 sudo apt install ros-kinetic-PACKAGE-NAME
 ```
+## Turtlesim
+
+### Package Installation
+```
+sudo apt install ros-kinetic-turtlesim
+```
+### 1. Run roscore
+```
+# In a new terminal:
+roscore
+```
+### 2. Run turtlesim node
+```
+# In a new terminal
+rosrun turtlesim turtlesim_node
+```
+
+### 3. Keyboard teleoperation
+```
+# In a new terminal
+rosrun turtlesim turtle_teleop_key
+
+# You should see the following:
+# [ INFO] 1254264546.878445000: Started node [/teleop_turtle], pid [5528], bound on [aqy], xmlrpc port [43918], tcpros port [55936], logging to [~/ros/ros/log/teleop_turtle_5528.log], using [real] time
+# Reading from keyboard
+# ---------------------------
+# Use arrow keys to move the turtle. 
+```
+Make sure that you select the terminal window that is running ```turtle_teleop_key```
