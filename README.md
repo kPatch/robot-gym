@@ -12,7 +12,9 @@ Notes and resources from an applied robotics workshop based on ROS
 - [Contact](#contact)
 
 ## Overview
-This is an introductory workshop on getting started with ROS [Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu). 
+This is an introductory workshop on robotics and working with ROS [Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu).
+We will cover topics regarding planning, teleoperation, communication, and hardware.
+For the most part, the tutorials will be based off the existing ROS Tutorial which can be found [here](http://wiki.ros.org/ROS/Tutorials/). 
 
 ## Prerequisites
 This workshop assumes the following:
