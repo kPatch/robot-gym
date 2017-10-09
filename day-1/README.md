@@ -10,6 +10,7 @@
 - [Turtlesim Local](#turtlesim-local)
 - [Turtlesim Everyone!](#turtlesim-everyone)
 - [Behind the Scenes](#behind-the-scenes)
+- [Resources](#resources)
 ## Overview
 Lorem Ipsum
 
@@ -136,3 +137,8 @@ rostopic echo /turtle1/pose
 ![rostopic echo](https://github.com/kPatch/robot-gym/blob/master/day-1/res/rostopic-echo-turtlesim-keyboard.png)
 
 Use your keyboard to move around and watch the value being 'echoed' into the terminal.
+
+## Resources
+- [ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
+- [Turtlesim Tutorial](http://wiki.ros.org/turtlesim/Tutorials)
+- [Understanding ROS Topics](http://wiki.ros.org/ROS/Tutorials/UnderstandingTopics)
