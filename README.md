@@ -1,5 +1,5 @@
 # ROBOT Gym
-> Start training some robots
+> Training to become a robot master.
 
 Notes and resources from an applied robotics workshop based on ROS
 
