@@ -59,6 +59,28 @@ $ sudo gedit ~/.bashrc
 export ROS_IP=10.14.90.5 # YOUR MACHINE'S IP ADDRESS
 export ROS_MASTER_URI=http://10.14.90.5:11311 # ROS MASTER IP ADDRESS, Wait for instructions
 ```
+#### Check variables
+
+```
+# Check hostname
+$ hostname
+```
+
+```
+# Check ROS Hostname
+$ echo $ROS_HOSTNAME
+```
+
+```
+# Check ROS IP
+$ echo $ROS_IP
+```
+
+```
+# Check ROS_MASTER_URI
+$ echo $ROS_MASTER_URI
+```
+**NOTE:** Make sure these variables match what is in your ```.bashrc``` file.
 
 #### ROS
 
