@@ -9,6 +9,7 @@
 - [Installation](#installation)
 - [Turtlesim Local](#turtlesim-local)
 - [Turtlesim Everyone!](#turtlesim-everyone)
+- [Behind the Scenes](#behind-the-scenes)
 ## Overview
 Lorem Ipsum
 
@@ -119,3 +120,5 @@ rosrun turtlesim turtlesim_node
 ```
 rosrun turtlesim turtle_teleop_key
 ```
+## Behind the Scenes
+
