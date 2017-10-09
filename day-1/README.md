@@ -144,7 +144,7 @@ Use your keyboard to move around and watch the value being 'echoed' into the ter
 ### Topic rate
 ```
 # In a new terminal
-rostopic hz /turtl1/pose
+rostopic hz /turtle1/pose
 ```
 
 ## Resources
