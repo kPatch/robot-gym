@@ -110,6 +110,12 @@ ifconfig
 # Open the .bashrc file
 sudo gedit ~/.bashrc
 ```
+
+```
+# Source .bashrc file
+source ~/.bashrc
+```
+
 ```
 # Edit/Add the following variables
 export ROS_IP=YOUR_IP # Add your IP address here
