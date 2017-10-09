@@ -8,7 +8,7 @@ Notes and resources from an applied robotics workshop based on ROS
 - [Prerequisites](#prerequisites)
 - [Development Tools](#tools)
 - [ROS Cheat Sheet](#ros-cheat-sheet)
-- [References](#references)
+- [Resources](#resources)
 - [Contact](#contact)
 
 ## Overview
@@ -53,9 +53,13 @@ $ rosrun
 $ rostopic
 ```
 
-## References
+## Resources
 
+- [About ROS](http://www.ros.org/about-ros/)
+- [TurtleBot 2](http://www.turtlebot.com/turtlebot2/)
 - [Ubuntu install of ROS Kinectic](http://wiki.ros.org/kinetic/Installation/Ubuntu)
+- [Irvin's Awesome Developer Resources](https://github.com/kPatch/awesome-developer-resources)
+- [Programming Robots with ROS: A Practical Introduction to the Robot Operating System](https://www.amazon.com/Programming-Robots-ROS-Practical-Introduction/dp/1449323898/)
 - [ROS Cheat Sheet](https://mirror.umd.edu/roswiki/attachments/de/ROScheatsheet.pdf)
 
 
@@ -64,5 +68,5 @@ $ rostopic
 **Irvin Steve Cardenas**   
 LinkedIn: [/in/irvinscardenas](wwww.irvincardenas.com/in)   
 Twitter: [@followIrvin](wwww.twitter.com/followIrvin)   
-Email: [irvin@irvincardenas.com](irvin@irvincardenas.com)
+Email: [irvin@irvincardenas.com](irvin@irvincardenas.com)   
 Web: [www.irvincardenas.com](www.irvincardenas.com)   
