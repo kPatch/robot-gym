@@ -133,3 +133,6 @@ rostopic list
 # In a new terminal
 rostopic echo /turtle1/pose
 ```
+![rostopic echo](https://github.com/kPatch/robot-gym/blob/master/day-1/res/rostopic-echo-turtlesim-keyboard.png)
+
+Use your keyboard to move around and watch the value being 'echoed' into the terminal.
