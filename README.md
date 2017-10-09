@@ -105,6 +105,34 @@ $ rosrun
 # 
 $ rostopic
 ```
+#### Terminator
+##### Splitting Windows
+
+| Command  | Action |
+| ------------- | ------------- |
+| Ctrl+Shift+E | vertical split |
+| Ctrl+Shift+O | horizontal split |
+| Alt+ArrowKeys | Navigate terminals |
+| Ctrl+Shift+P | focus be active on the previous view |
+| Ctrl+Shift+N | focus be active on the next view |
+| Ctrl+Shift+W | close the view where the focus is on |
+| Ctrl+Shift+Q | exit terminator |
+| Ctrl+Shift+X | focus active window and enlarge it |
+
+##### Groups
+
+| Command  | Action |
+| ------------- | ------------- |
+| Ctrl+G  | Group All  |
+| Ctrl+Shift+G | Ungroup All |
+| Ctrl+T | Group Tab | 
+| Ctrl+Shift+T | Ungroup Tab | 
+
+##### Launcher parameters
+
+* -m – maximize
+* -b – borderless
+* -T – set title
 
 ## Resources
 
@@ -114,7 +142,7 @@ $ rostopic
 - [Irvin's Awesome Developer Resources](https://github.com/kPatch/awesome-developer-resources)
 - [Programming Robots with ROS: A Practical Introduction to the Robot Operating System](https://www.amazon.com/Programming-Robots-ROS-Practical-Introduction/dp/1449323898/)
 - [ROS Cheat Sheet](https://mirror.umd.edu/roswiki/attachments/de/ROScheatsheet.pdf)
-
+- [Terminator Cheat Sheet](https://github.com/spabinger/terminator-cheat-sheet)
 
 ## Contact
 
