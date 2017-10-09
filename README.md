@@ -7,7 +7,7 @@ Notes and resources from an applied robotics workshop based on ROS
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
 - [Development Tools](#tools)
-- [ROS Cheat Sheet](#ros-cheat-sheet)
+- [Cheat Sheet](#cheat-sheet)
 - [Resources](#resources)
 - [Contact](#contact)
 
@@ -31,7 +31,36 @@ Allows users to have multiple terminals in one window.
 # 
 $ sudo apt install terminator
 ```
-### ROS Cheat Sheet
+### Cheat Sheet
+#### Get machine's IP address
+```
+$ ifconfig
+
+# ...
+# wlan0     Link encap:Ethernet  HWaddr 10:02:b5:3f:64:e3  
+#           inet addr:10.14.90.5  Bcast:192.168.0.255  Mask:255.255.255.0
+#           inet6 addr: fe80::8de2:cbad:43c4:fa14/64 Scope:Link
+#           UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+#           RX packets:11239 errors:0 dropped:0 overruns:0 frame:0
+#           TX packets:8317 errors:0 dropped:0 overruns:0 carrier:0
+#           collisions:0 txqueuelen:1000 
+#           RX bytes:13144484 (13.1 MB)  TX bytes:1449665 (1.4 MB)
+#
+# Your machine's IP address is noted after 'inet addr'
+# In this case the machine's IP address is: 10.14.90.5
+
+```
+
+#### Set ROS variables in .bashrc file
+```
+$ sudo gedit ~/.bashrc
+```
+```
+export ROS_IP=10.14.90.5 # YOUR MACHINE'S IP ADDRESS
+export ROS_MASTER_URI=http://10.14.90.5:11311 # ROS MASTER IP ADDRESS, Wait for instructions
+```
+
+#### ROS
 
 ```
 # roscore
