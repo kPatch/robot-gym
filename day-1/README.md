@@ -7,7 +7,8 @@
 # Table of Contents
 - [Overview](#overview)
 - [Installation](#installation)
-- [Turtlesim](#turtlesim)
+- [Turtlesim Local](#turtlesim-local)
+- [Turtlesim Everyone!](#turtlesim-everyone)
 ## Overview
 Lorem Ipsum
 
@@ -60,7 +61,7 @@ sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool
 ```
 sudo apt install ros-kinetic-PACKAGE-NAME
 ```
-## Turtlesim
+## Turtlesim Local
 
 ### Package Installation
 ```
@@ -89,3 +90,32 @@ rosrun turtlesim turtle_teleop_key
 # Use arrow keys to move the turtle. 
 ```
 Make sure that you select the terminal window that is running ```turtle_teleop_key```
+
+![Turtlsim](http://wiki.ros.org/ROS/Tutorials/UnderstandingTopics?action=AttachFile&do=get&target=turtle_key.png)
+
+## Turtlesim Everyone!
+
+### 1. Set Environment Variables
+```
+# Get machine's IP address
+ifconfig
+```
+
+```
+# Open the .bashrc file
+sudo gedit ~/.bashrc
+```
+```
+# Edit/Add the following variables
+export ROS_IP=YOUR_IP # Add your IP address here
+export ROS_MASTER_URI=http://10.14.90.5:11311 # Wait for Irvin's instruction
+```
+
+### 2. Run turtlesim again
+```
+rosrun turtlesim turtlesim_node
+```
+### 3. Teleoperate using keyboard
+```
+rosrun turtlesim turtle_teleop_key
+```
