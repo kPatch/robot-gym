@@ -15,7 +15,7 @@
   - [Topic rate](#topic-rate)
 - [Resources](#resources)
 ## Overview
-Lorem Ipsum
+This section covers ROS Kinetic installation and a demo of Turtlesim.
 
 ## Installation
 You can find more detailed instruction in the ROS Kinetic - Ubuntu installation [page](http://wiki.ros.org/kinetic/Installation/Ubuntu). 
