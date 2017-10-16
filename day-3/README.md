@@ -30,12 +30,12 @@ sudo easy_install pip.
 ## pocketsphinx
 ```
 # Upgrade tools
-pip install --upgrade pip setuptools wheel
+pip install --user --upgrade pip setuptools wheel
 ```
 
 ```
 # Install pocketsphinx
-pip install --upgrade pocketsphinx
+pip install  --user --upgrade pocketsphinx
 ```
 ## Python Google Text-to-Speech
 
@@ -47,23 +47,17 @@ pip install gTTS
 ```
 
 ## PyGame
-
-https://www.pygame.org/news
-
 ```
-pip install pygame --user
+pip install --user pygame
 ```
-
+### Reference
+- [PyGame](https://www.pygame.org/)
+- [PyGame: Tutorial](https://www.pygame.org/wiki/tutorials)
 ## Dialog Flow (APIAI)
-
 ```
-pip install apiai
+pip install --user apiai
 ```
-
-# References
-
+### Reference
 - [Getting Started in 3 Minutes with API.AI](https://www.youtube.com/watch?v=Om7tyGGemXI)
 - [API & Docs - API.AI](https://dialogflow.com/docs/getting-started/basics)
 - [sitepoint](https://www.sitepoint.com/how-to-build-your-own-ai-assistant-using-api-ai/)
-
-
