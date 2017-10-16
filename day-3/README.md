@@ -9,3 +9,26 @@
 - [Installation](#installation)
 - [Turtlebot](#turtlebot)
 - [Resources](#resources)
+
+# Overview
+
+# Installation
+
+## PIP
+```
+# Download Packages
+
+sudo apt-get install python-setuptools python-dev build-essential
+
+```
+
+```
+# Install Pip
+
+sudo easy_install pip.
+```
+
+## Python Google Text-to-Speech
+```
+pip install gTTS
+```
