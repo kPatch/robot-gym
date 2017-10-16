@@ -1,13 +1,5 @@
-import os
-import ConfigParser
-import io
-import string
-import hashlib
-import sys
-
-import time
-import json
-import pygame
-import apiai
-import speech_recognition as sr 
+# -*- coding: UTF-8 -*-
 from gtts import gTTS
+hello = 'buongiorno'.encode('utf-8')
+tts = gTTS(text= hello, lang='it', slow=False)
+tts.save('hello.mp3')
