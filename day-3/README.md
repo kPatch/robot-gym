@@ -7,7 +7,8 @@
 # Table of Contents
 - [Overview](#overview)
 - [Installation](#installation)
-- [Turtlebot](#turtlebot)
+- [PIP](#PIP)
+- [gTTS](#gTTS)
 - [Resources](#resources)
 
 # Overview
@@ -19,16 +20,50 @@
 # Download Packages
 
 sudo apt-get install python-setuptools python-dev build-essential
-
 ```
 
 ```
-# Install Pip
-
+### Install Pip
 sudo easy_install pip.
 ```
 
+## pocketsphinx
+```
+# Upgrade tools
+pip install --upgrade pip setuptools wheel
+```
+
+```
+# Install pocketsphinx
+pip install --upgrade pocketsphinx
+```
 ## Python Google Text-to-Speech
+
+https://pypi.python.org/pypi/gTTS
+https://github.com/pndurette/gTTS
+
 ```
 pip install gTTS
 ```
+
+## PyGame
+
+https://www.pygame.org/news
+
+```
+pip install pygame --user
+```
+
+## Dialog Flow (APIAI)
+
+```
+pip install apiai
+```
+
+# References
+
+- [Getting Started in 3 Minutes with API.AI](https://www.youtube.com/watch?v=Om7tyGGemXI)
+- [API & Docs - API.AI](https://dialogflow.com/docs/getting-started/basics)
+- [sitepoint](https://www.sitepoint.com/how-to-build-your-own-ai-assistant-using-api-ai/)
+
+
