@@ -17,7 +17,7 @@ You must also submit a one paragraph or 5 sentence description of your project a
 
 - **(10 points)** (1) Write a ROS publisher and publish any data (2) Being able to run  '''roscore''' (3) Being able to echo the data through the use of '''rostopic'''. See [day-1]() for ROS command cheatsheet
 - **(10 points)** A plain vanilla implementation of an Arduino-based system. You are free to use LEDs, servos, etc
-- **20 points:** An implementation of an Arduino-based system that receives data by subscribing to the ROS publisher you wrote
+- **(20 points)** An implementation of an Arduino-based system that receives data by subscribing to the ROS publisher you wrote
 - **(20 points)** An implementation of an Arduino-based system that publishes data, in addition to subscribing to the ROS publisher you wrote. 
   - The data the Arduino publishes can be as simple as an acknowledgment that it has received a message.
 - **(X Points)**  
