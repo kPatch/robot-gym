@@ -7,7 +7,7 @@
 # Table of Contents
 - [Overview](#overview)
 - [Installation](#installation)
-- [PIP](#PIP)
+- [pip](#PIP)
 - [gTTS](#gTTS)
 - [Resources](#resources)
 
@@ -15,15 +15,14 @@
 
 # Installation
 
-## PIP
+## pip
 ```
 # Download Packages
-
 sudo apt-get install python-setuptools python-dev build-essential
 ```
 
 ```
-### Install Pip
+# Install pip
 sudo easy_install pip.
 ```
 
@@ -32,19 +31,28 @@ sudo easy_install pip.
 # Upgrade tools
 pip install --user --upgrade pip setuptools wheel
 ```
-
 ```
 # Install pocketsphinx
 pip install  --user --upgrade pocketsphinx
 ```
+## SpeechRecognition Library
+```
+pip install SpeechRecognition
+```
+
+### References
+- [SpeechRecognition - GitHub](https://github.com/Uberi/speech_recognition)
+- [Library Reference](https://github.com/Uberi/speech_recognition/blob/master/reference/library-reference.rst)
+- [Notes on Using PockeSphinx](https://github.com/Uberi/speech_recognition/blob/master/reference/pocketsphinx.rst)
+- [Example](https://github.com/Uberi/speech_recognition/tree/master/examples)
+
 ## Python Google Text-to-Speech
-
-https://pypi.python.org/pypi/gTTS
-https://github.com/pndurette/gTTS
-
 ```
 pip install gTTS
 ```
+### Reference 
+- [gTTS - Pypi](https://pypi.python.org/pypi/gTTS)
+- [gTTS - GitHub](https://github.com/pndurette/gTTS)
 
 ## PyGame
 ```
