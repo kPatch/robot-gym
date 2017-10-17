@@ -22,7 +22,7 @@ You must also submit a one paragraph or 5 sentence description of your project a
   - The data the Arduino publishes can be as simple as an acknowledgment that it has received a message.
 - **(20 points)** Trigger a conversation using any voice recognition library or API
 - **(20 points)** Trigger the execution of action based on the conversation
-- **(Extra 20)** Trigger a continuous conversation with the agent
+- **(Extra 20 points)** Implement a continuous conversation with the agent. The agent must respond to user and vice-versa.
 
 ## Super Star Hall of Fame
 - 20 extra credit points
