@@ -37,7 +37,7 @@ pip install  --user --upgrade pocketsphinx
 ```
 ## SpeechRecognition Library
 ```
-pip install SpeechRecognition
+pip install --user SpeechRecognition
 ```
 
 ### References
@@ -48,7 +48,7 @@ pip install SpeechRecognition
 
 ## Python Google Text-to-Speech
 ```
-pip install gTTS
+pip install --user gTTS
 ```
 ### Reference 
 - [gTTS - Pypi](https://pypi.python.org/pypi/gTTS)
