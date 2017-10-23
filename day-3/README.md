@@ -13,6 +13,7 @@
   - [gTTS](#python-google-text-to-speech)
   - [PyGame](#pygame)
   - [DialogFlow](#dialogflow)
+  - [rosserial](#rosserial)
 - [Resources](#resources)
 
 # Overview
@@ -75,3 +76,10 @@ pip install --user apiai
 - [Getting Started in 3 Minutes with API.AI](https://www.youtube.com/watch?v=Om7tyGGemXI)
 - [API & Docs - API.AI](https://dialogflow.com/docs/getting-started/basics)
 - [sitepoint](https://www.sitepoint.com/how-to-build-your-own-ai-assistant-using-api-ai/)
+
+## rosserial
+
+### References
+- [rosserial wiki](http://wiki.ros.org/rosserial)
+- [rosserial_arduino setup](http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup)
+- [rosserial_arduino tutorials](http://wiki.ros.org/rosserial_arduino/Tutorials)
