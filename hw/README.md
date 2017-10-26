@@ -15,7 +15,7 @@ You must also submit a one paragraph or 5 sentence description of your project a
 
 ## Grading Criteria
 
-- **(10 points)** (1) Write a ROS publisher and publish any data (2) Being able to run  '''roscore''' (3) Being able to echo the data through the use of '''rostopic'''. See [day-1]() for ROS command cheatsheet
+- **(10 points)** (1) Write a ROS publisher and publish any data (2) Being able to run  '''roscore''' (3) Being able to echo the data through the use of '''rostopic'''. See [day-1](https://github.com/kPatch/robot-gym/tree/master/day-1) for ROS command cheatsheet
 - **(10 points)** A plain vanilla implementation of an Arduino-based system. You are free to use LEDs, servos, etc
 - **(20 points)** An implementation of an Arduino-based system that receives data by subscribing to the ROS publisher you wrote
 - **(20 points)** An implementation of an Arduino-based system that publishes data, in addition to subscribing to the ROS publisher you wrote.  
@@ -36,7 +36,7 @@ Design a human-robot interaction that involves one of our Turtlebots or our Smar
 **Additional support will be provided to students who wish to pursue this track**.
 
 ### Requirements
-- Design the [experience flow]() using a state machine 
+- Design the [experience flow](https://developer.amazon.com/blogs/post/TxHGKH09BL2VA1/New-Alexa-Skills-Kit-Template-Step-by-Step-Guide-to-Build-a-Decision-Tree-Skill) using a state machine 
 - Design the communication flow using a state machine
 - Apply at least two of the recommended APIs
 - All code must be open sourced on GitHub and named "ksu-hri-<YOUR PROJECT NAME IN LOWER CASE>
