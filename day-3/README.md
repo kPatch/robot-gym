@@ -40,7 +40,22 @@ pip install --user --upgrade pip setuptools wheel
 # Install pocketsphinx
 pip install  --user --upgrade pocketsphinx
 ```
+### References
+- [pocketsphinx-python wrapper](https://github.com/bambocher/pocketsphinx-python)
+- [CMUSphinx Tutorial For Developers](https://cmusphinx.github.io/wiki/tutorial/)
+- [CMUSphinx Python Test](https://github.com/cmusphinx/pocketsphinx/tree/master/swig/python/test)
+
 ## SpeechRecognition Library
+This speech recognition python library provides support for the following engines and APIs, online and offline:
+- CMU Sphinx (works offline)
+- Google Speech Recognition
+- Google Cloud Speech API
+- Wit.ai
+- Microsoft Bing Voice Recognition
+- Houndify API
+- IBM Speech to Text
+- Snowboy Hotword Detection (works offline)
+
 ```
 pip install --user SpeechRecognition
 ```
